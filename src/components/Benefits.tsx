@@ -1,5 +1,4 @@
-import React from 'react';
-import { ShieldCheck, HeartHandshake, EyeOff, BookOpenCheck, Clock, CheckCircle2, CircleDollarSign, Zap } from 'lucide-react';
+import { EyeOff, BookOpenCheck, CircleDollarSign, Zap } from 'lucide-react';
 
 export default function Benefits() {
   const benefits = [

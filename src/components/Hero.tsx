@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from './ui/Button';
-import { ArrowRight, Star, MapPin, CheckCircle, ShieldCheck, Lock, Menu, X } from 'lucide-react';
+import { ArrowRight, Star, ShieldCheck, Lock, Menu, X } from 'lucide-react';
 
 export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Button } from './ui/Button';
 import { ArrowUpRight, ArrowRight, ArrowLeft } from 'lucide-react';
 
 export default function Highlights() {

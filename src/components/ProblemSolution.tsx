@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowRight, DollarSign } from 'lucide-react';
+import { DollarSign } from 'lucide-react';
 
 export default function ProblemSolution() {
   return (
