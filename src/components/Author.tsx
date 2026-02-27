@@ -3,7 +3,7 @@ import { Briefcase, Globe } from 'lucide-react';
 
 export default function Author() {
   return (
-    <section id="author" className="py-12 px-3 bg-stone-50">
+    <section id="author" className="py-12 px-3">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-col md:flex-row items-center gap-16 md:gap-24">
           <div className="w-full md:w-1/2 order-1 md:order-2">
