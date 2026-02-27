@@ -28,7 +28,7 @@ export default function Hero() {
   }, [isMenuOpen]);
 
   return (
-    <section id="hero" className="relative w-full h-screen min-h-[900px] overflow-hidden flex flex-col py-6">
+    <section id="hero" className="relative w-full h-screen min-h-[930px] overflow-hidden flex flex-col py-6">
       {/* Background Image - Full Screen */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -111,7 +111,7 @@ export default function Hero() {
       </nav>
 
       {/* Main Content - Centered */}
-      <div className="relative z-10 container mx-auto px-4 flex-grow flex flex-col justify-center items-center text-center pt-32 md:pt-24 pb-30 px-10 md:px-0">
+      <div className="relative z-10 container mx-auto flex-grow flex flex-col justify-center items-center text-center pt-32 md:pt-24 pb-32 px-4 md:px-0">
  
 
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight leading-[1.1] max-w-5xl md:px-24">
