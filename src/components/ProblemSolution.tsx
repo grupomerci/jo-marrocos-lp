@@ -31,7 +31,7 @@ export default function ProblemSolution() {
           </div>
 
           <div className="w-full md:w-1/2">
-            <div className="relative bg-stone-900 rounded-[3rem] p-10 md:p-14 text-white shadow-2xl overflow-hidden">
+            <div className="relative bg-stone-900 rounded-none md:rounded-[3rem] p-10 md:p-14 text-white shadow-2xl overflow-hidden -mx-4 md:mx-0 w-[calc(100%+2rem)] md:w-full">
               <div className="absolute top-0 right-0 w-full h-full bg-[url('/img4.jpg')] opacity-25 bg-cover bg-center mix-blend-overlay"></div>
               
               <div className="relative z-10 text-center md:text-left">
