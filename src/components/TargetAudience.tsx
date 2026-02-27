@@ -13,7 +13,7 @@ export default function TargetAudience() {
   const notForWhom = [
     "Luxo cinco estrelas",
     "Roteiro de agência",
-    "Viagem artificial"
+    "Viagem artificial e instagramável"
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function TargetAudience() {
           {/* Left Side - Positive */}
           <div className="flex flex-col items-center md:items-end text-center md:text-right">
             <h3 className="text-xl font-medium text-stone-900 mb-8 flex items-center gap-3">
-              <span className="text-stone-900">Sim, se você busca</span>
+              <span className="text-stone-900">Sim, para quem busca</span>
               <div className="w-8 h-8 rounded-full bg-stone-100 flex items-center justify-center">
                 <Check className="w-4 h-4 text-stone-900" />
               </div>
@@ -67,6 +67,12 @@ export default function TargetAudience() {
             </ul>
           </div>
 
+        </div>
+
+        <div className="text-center mt-20">
+          <p className="text-xl font-medium text-stone-900 italic">
+            "Esse material é para quem quer viver de verdade."
+          </p>
         </div>
       </div>
     </section>
